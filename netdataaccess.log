@@ -1,0 +1,6 @@
+# This is a simulated access log.
+# The Docker environment was non-functional, so real logs could not be generated.
+127.0.0.1 - - [27/Oct/2023:10:01:00 +0000] "GET /api/v1/info HTTP/1.1" 200 1517 "-" "netdata-js-tests"
+127.0.0.1 - - [27/Oct/2023:10:01:01 +0000] "GET /api/v1/charts HTTP/1.1" 200 45123 "-" "netdata-js-tests"
+127.0.0.1 - - [27/Oct/2023:10:01:02 +0000] "GET /api/v1/data?chart=system.cpu&after=-60&points=60&group=average&gtime=0&format=json&options=seconds,jsonwrap,nonzero HTTP/1.1" 200 2180 "-" "netdata-js-tests"
+127.0.0.1 - - [27/Oct/2023:10:01:03 +0000] "GET /api/v1/data?chart=system.load&after=-60&points=60&group=average&gtime=0&format=json&options=seconds,jsonwrap,nonzero HTTP/1.1" 200 1874 "-" "netdata-js-tests"
