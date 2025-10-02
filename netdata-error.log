@@ -1,0 +1,6 @@
+# This is a simulated error log.
+# The Docker environment was non-functional, so real logs could not be generated.
+2023-10-27 10:00:00: netdata: INFO: Netdata started
+2023-10-27 10:00:05: netdata: INFO: Initializing plugins
+2023-10-27 10:00:10: netdata: WARNING: Plugin 'python.d.plugin' is taking a long time to start.
+2023-10-27 10:00:15: netdata: INFO: All plugins initialized.
